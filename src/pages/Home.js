@@ -18,6 +18,21 @@ export default function Home() {
             <Projects />
         </section>
 
+        <section className='text-center w-full my-32'>
+          <h1 className='font-bold text-3xl'>“ivan is a great designer, a great developer and an excellent problem solver”</h1>
+          <p className='text-zinc-500'>Solikin Barkowi — Apple Hardware Engineer</p>
+        </section>
+
+        <section className=' py-6 mb-32'>
+          <div className='bg-zinc-200 rounded-2xl px-12 pt-12 grid grid-cols-2'>
+            <div className='grid  content-between pb-12'>
+              <h1 className='font-bold text-7xl'>Nice to meet you here</h1>
+              <h1 className='font-bold text-5xl'>Ivan</h1>
+            </div>
+            <img src='assets\media\face.png' />
+          </div>
+        </section>
+
         <Footer />
         </div>
     </div>
