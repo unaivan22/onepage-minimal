@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Nav from './Nav'
+import Projects from './data/Projects'
 import Footer from './Footer'
 
 export default function Home() {
@@ -9,18 +10,12 @@ export default function Home() {
         <Nav />
         <div className='container mx-auto sm:px-24 md:px-32 xl:px-36 lg:px-36 mt-24 grid gri-col-1'>
         <section className='grid place-items-center h-full text-center'>
-            <p className='text-6xl font-bold text-black'>Supercharge your productivity, with Notion.</p>
+            <p className='xl:text-6xl lg:text-6xl md:text-4xl sm:text-4xl  xs:text-5xl font-bold text-black'>Ivan is an UX Engineer, based in Cupertino</p>
         </section>
 
-        <section className='grid grid-cols-1 mt-32 mb-52'>
-            <p className='text-black font-bold text-3xl mb-6'>Selected Projects</p>
-            <div className='grid grid-cols-2'>
-                <div className='rounded-xl'>
-                    <img src='https://framerusercontent.com/images/ZVhwgWEYJPPyX4KkTptfdCcU.jpg' />
-                    <h3 className='font-bold text-black text-2xl mt-4'>Lorem Ipsum</h3>
-                    <p className='font-light text-zinc-600'>Company Name</p>
-                </div>
-            </div>
+        <section className='grid grid-cols-1 mt-44 mb-52'>
+            <p className='text-black font-bold xl:text-3xl lg:text-3xl md:text-3xl sm:text-2xl xs:text-2xl mb-6'>Selected Projects</p>
+            <Projects />
         </section>
 
         <Footer />
