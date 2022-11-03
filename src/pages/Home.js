@@ -24,10 +24,10 @@ export default function Home() {
         </section>
 
         <section className=' py-6 mb-32'>
-          <div className='bg-zinc-200 rounded-2xl px-12 pt-12 grid grid-cols-2'>
-            <div className='grid  content-between pb-12'>
-              <h1 className='font-bold text-7xl'>Nice to meet you here</h1>
-              <h1 className='font-bold text-5xl'>Ivan</h1>
+          <div className='bg-zinc-100 rounded-2xl lg:px-16 xl:px-16 md:px-12 sm:px-12 xs:px-12 pt-12 grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1' >
+            <div className='grid content-between pb-12'>
+              <h1 className='font-bold xl:text-7xl lg:text-6xl md:text-5xl sm:text-3xl xs:text-3xl'>Nice to meet you</h1>
+              <h1 className='font-bold xl:text-5xl lg:text-5xl md:text-3xl sm:text-2xl xs:text-2xl'>Ivan</h1>
             </div>
             <img src='assets\media\face.png' />
           </div>
